@@ -36,6 +36,7 @@ import DoggoBody from "@/components/DoggoBody.vue";
   margin-left: 0.5rem;
   margin-right: 0.5rem;
   height: min-content;
+  gap: 0.5rem;
 }
 
 .name {
@@ -50,6 +51,7 @@ import DoggoBody from "@/components/DoggoBody.vue";
 .intro {
   font-size: 3rem;
   display: block;
+  margin-bottom: 1.5rem;
 }
 
 .body-text {
