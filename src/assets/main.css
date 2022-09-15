@@ -100,7 +100,8 @@ li,
 a,
 img,
 p,
-button {
+button,
+input {
   all: unset;
   display: grid;
   grid-template-columns: 1fr;
@@ -135,7 +136,7 @@ rect {
   --purple: #b48ead;
 
   --page-width: 32rem;
-  line-height: 1.5rem;
+  line-height: 1.45;
 
   font-family: Concourse;
   font-size: 18px;

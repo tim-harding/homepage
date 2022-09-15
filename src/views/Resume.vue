@@ -211,7 +211,7 @@
   width: 100%;
   border-bottom-style: solid;
   border-bottom-width: 2px;
-  padding-bottom: 0.75rem;
+  padding-bottom: 0.3rem;
   margin-bottom: 0.75rem;
 }
 

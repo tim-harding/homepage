@@ -1,11 +1,9 @@
 <template>
   <div class="home-root">
-    <div class="inner">
+    <div class="home-content">
       <h2 class="intro">Hi, I'm <span class="name">Tim</span>.</h2>
       <p class="first-body-line body-text">
-        Software developer. Student. Spice enthusiast.
-      </p>
-      <p class="body-text">
+        Software developer. Student. Spice enthusiast. <br />
         Learn more about
         <RouterLink class="body-link" to="/resume">me</RouterLink> or my
         <RouterLink class="body-link" to="/projects">projects</RouterLink>.
@@ -29,10 +27,10 @@ import DoggoBody from "@/components/DoggoBody.vue";
   justify-self: center;
   max-width: var(--page-width);
   width: 100%;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
-.inner {
+.home-content {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
   height: min-content;
@@ -51,7 +49,6 @@ import DoggoBody from "@/components/DoggoBody.vue";
 .intro {
   font-size: 3rem;
   display: block;
-  margin-bottom: 1.5rem;
 }
 
 .body-text {

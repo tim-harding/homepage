@@ -6,8 +6,8 @@
     id="menu-disclosure"
   />
   <header class="header">
-    <div class="outer">
-      <div class="inner">
+    <div class="header-outer">
+      <div class="header-inner">
         <h1 class="site-title">
           <RouterLink class="link" to="/">Tim&nbsp;Harding</RouterLink>
         </h1>
@@ -58,12 +58,12 @@ import ThemeButton from "./ThemeButton.vue";
   border-bottom-color: var(--dark-3);
 }
 
-.outer {
+.header-outer {
   width: 100%;
   max-width: var(--page-width);
 }
 
-.inner {
+.header-inner {
   padding-left: 0.75rem;
   padding-right: 1rem;
   grid-template-columns: min-content 1fr min-content;
@@ -135,7 +135,7 @@ import ThemeButton from "./ThemeButton.vue";
     display: grid;
   }
 
-  .inner {
+  .header-inner {
     grid-template-columns: 1fr min-content min-content;
     grid-template-rows: 3rem 1fr;
     grid-template-areas:
@@ -156,11 +156,11 @@ import ThemeButton from "./ThemeButton.vue";
   }
 
   .hidden:checked + .header {
-    height: 7.5rem;
+    height: 8rem;
   }
 
-  .hidden:checked + .header .inner {
-    height: 7.5rem;
+  .hidden:checked + .header .header-inner {
+    height: 8rem;
   }
 }
 </style>
