@@ -27,7 +27,7 @@ import DoggoBody from "@/components/DoggoBody.vue";
 <style scoped>
 .home-root {
   justify-self: center;
-  max-width: 40rem;
+  max-width: var(--page-width);
   width: 100%;
   margin-top: 3rem;
 }

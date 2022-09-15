@@ -45,7 +45,7 @@ import ThemeButton from "./ThemeButton.vue";
 
 .outer {
   width: 100%;
-  max-width: 40rem;
+  max-width: var(--page-width);
   justify-self: center;
 }
 
