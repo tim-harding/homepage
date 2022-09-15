@@ -73,7 +73,7 @@ import DoggoBody from "@/components/DoggoBody.vue";
   align-self: flex-end;
   position: relative;
   top: 60px;
-  left: 60px;
+  left: 120px;
 }
 
 .doggo-legs {

@@ -53,6 +53,7 @@ import ThemeButton from "./ThemeButton.vue";
   padding-left: 0.75rem;
   padding-right: 1rem;
   grid-template-columns: min-content 1fr min-content;
+  align-items: center;
 }
 
 .site-title {
@@ -62,12 +63,12 @@ import ThemeButton from "./ThemeButton.vue";
 
 .links {
   font-size: 1.25rem;
+  margin-top: 0.25rem;
 }
 
 .list {
   grid-auto-flow: column;
   align-items: flex-end;
-  margin-bottom: 0.25rem;
   justify-items: end;
   gap: 1.5rem;
 }
