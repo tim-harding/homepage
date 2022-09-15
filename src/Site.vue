@@ -1,5 +1,5 @@
 <template>
-  <div class="root" :class="{ dark: !isLight }">
+  <div class="site-root" :class="{ dark: !isLight }">
     <Header></Header>
     <main>
       <RouterView></RouterView>
@@ -16,7 +16,7 @@ import Footer from "./components/Footer.vue";
 </script>
 
 <style scoped>
-.root {
+.site-root {
   min-height: 100vh;
   grid-template-rows: min-content 1fr min-content;
   background-color: var(--light-1);
@@ -25,7 +25,7 @@ import Footer from "./components/Footer.vue";
   --hover: var(--frost-4);
 }
 
-.root.dark {
+.site-root.dark {
   background-color: var(--dark-1);
   color: var(--light-3);
   --icon: var(--light-3);

@@ -1,5 +1,5 @@
 <template>
-  <div class="root">
+  <div class="home-root">
     <div class="inner">
       <h2 class="intro">Hi, I'm <span class="name">Tim</span>.</h2>
       <p class="first-body-line body-text">
@@ -25,7 +25,7 @@ import DoggoBody from "@/components/DoggoBody.vue";
 </script>
 
 <style scoped>
-.root {
+.home-root {
   justify-self: center;
   max-width: 40rem;
   width: 100%;
