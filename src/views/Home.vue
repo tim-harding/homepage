@@ -31,8 +31,8 @@ import DoggoBody from "@/components/DoggoBody.vue";
 }
 
 .home-content {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
   height: min-content;
   gap: 0.5rem;
 }
