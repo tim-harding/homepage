@@ -49,7 +49,7 @@ import ThemeButton from "./ThemeButton.vue";
   height: 3rem;
   align-items: flex-start;
   justify-items: center;
-  transition: height 0.25s;
+  transition: height 0.25s background-color 0.25s color 0.25s;
 }
 
 .dark .header {
@@ -71,7 +71,7 @@ import ThemeButton from "./ThemeButton.vue";
   align-items: center;
   height: 3rem;
   overflow: hidden;
-  transition: height 0.25s;
+  transition: height 0.25s background-color 0.25s color 0.25s;
 }
 
 .site-title {
